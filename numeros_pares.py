@@ -1,6 +1,6 @@
-r=2
+
 for i in range(1,11):
-    print(par*i)
+    print(2*i)
 2
 4
 6
