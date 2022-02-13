@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Pruebas peso lunar",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest peso_lunar_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Pruebas de números pares",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest numeros_pares_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
